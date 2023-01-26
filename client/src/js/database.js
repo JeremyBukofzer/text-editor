@@ -13,7 +13,7 @@ const initdb = async () =>
   });
 
 export const putDb = async (content) => {
-  console.error('putDb not implemented');
+  console.log('PUT to the database');
 
 const textDb = await openDB('text', 1);
 
@@ -28,7 +28,7 @@ console.log('Data saved to the database!', result);
 };
 
 export const getDb = async () => {
-  console.error('getDb not implemented');
+  console.log('GET from the database');
 
 const textDb = await openDB('text', 1);
 

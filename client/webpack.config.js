@@ -34,8 +34,8 @@ module.exports = () => {
         name: "Just Another Text Editor",
         short_name: 'J.A.T.E',
         description: 'Edit all the text!',
-        background_color: '',
-        theme_color: '',
+        background_color: '#0F111A',
+        theme_color: '#0F111A',
         start_url: './',
         publicPath: './',
         icons: [
@@ -58,7 +58,6 @@ module.exports = () => {
         {
           test: /\.m?js$/,
           exclude: /node_modules/,
-          // We use babel-loader in order to use ES6.
           use: {
             loader: 'babel-loader',
             options: {
